@@ -30,10 +30,12 @@ def calc1(x)
 print(calc1(10)) # 20
 
 
-def calc2(x)
+def calc2(x):
     return x * 10
-def math(op, x)
-print(op, x)
+
+def math(op, x):
+    print(op, x)
+
 math(calc2, 10) # 100
 
 # Попробуем описать ту же логику для функции с двумя переменными.
